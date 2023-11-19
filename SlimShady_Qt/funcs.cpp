@@ -9,3 +9,8 @@ double Summ(double a, double b)
 {
 return a + b;
 }
+
+double Division(double a, double b)
+{
+return a / b;
+}

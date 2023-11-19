@@ -3,6 +3,7 @@
 
 double Diff(double, double);
 double Summ(double, double);
+double Division(double, double);
 
 #endif // FUNCS_H
 

@@ -26,7 +26,7 @@ int main()
             cout << Diff(a, b) << endl;
             break;
         case '3':
-            cout << "The feature is still development. Sorry" << endl;
+            cout << Multi(a, b) << endl;
             break;
         case '4':
             cout << Division(a, b) << endl;

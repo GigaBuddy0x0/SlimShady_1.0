@@ -23,7 +23,7 @@ int main()
             cout << "The feature is still development. Sorry" << endl;
             break;
         case '2':
-            cout << "The feature is still development. Sorry" << endl;
+            cout << Diff(a, b) << endl;
             break;
         case '3':
             cout << "The feature is still development. Sorry" << endl;

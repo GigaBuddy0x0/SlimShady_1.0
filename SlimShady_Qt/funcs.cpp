@@ -1,6 +1,6 @@
 #include "funcs.h"
 
-int Diff(int a, int b)
+double Diff(double a, double b)
 {
 return a - b;
 }

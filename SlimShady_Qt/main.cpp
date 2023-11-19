@@ -29,7 +29,7 @@ int main()
             cout << "The feature is still development. Sorry" << endl;
             break;
         case '4':
-            cout << "The feature is still development. Sorry" << endl;
+            cout << Division(a, b) << endl;
             break;
         default:
             cout << "Not like that! Goodby." <<endl;

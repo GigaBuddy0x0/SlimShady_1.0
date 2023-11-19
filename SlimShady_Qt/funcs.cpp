@@ -14,3 +14,8 @@ double Division(double a, double b)
 {
 return a / b;
 }
+
+double Multi(double a, double b)
+{
+return a * b;
+}

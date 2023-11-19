@@ -20,7 +20,7 @@ int main()
     switch (n)
     {
         case '1':
-            cout << "The feature is still development. Sorry" << endl;
+            cout << Summ(a, b) << endl;
             break;
         case '2':
             cout << Diff(a, b) << endl;

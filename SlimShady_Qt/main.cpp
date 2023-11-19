@@ -1,5 +1,6 @@
 #include <iostream>
 #include "funcs.h"
+#include <windows.h>
 
 using namespace std;
 
@@ -32,7 +33,17 @@ int main()
             cout << Division(a, b) << endl;
             break;
         default:
-            cout << "Not like that! Goodby." <<endl;
+            cout << "Wrong choice! You will be destroyed at 3..." <<endl;
+            Sleep(2000);
+            cout << "2..." << endl;
+            Sleep(2000);
+            cout << "1..." << endl;
+            Sleep(2000);
+            cout << "Ha-ha, it was a joke!" << endl;
+            Sleep(2000);
+            cout << "But you're still a bad person. ";
+            Sleep(2000);
+            cout << "-_-" << endl;
             break;
     }
     system("pause");
